@@ -1,11 +1,13 @@
-<ul class="navbar-nav sidebar sidebar-dark accordion" style="background-color: #5C5470" id="accordionSidebar">
+<ul class="navbar-nav sidebar sidebar-dark accordion" style="background-color: black " id="accordionSidebar">
   
     <!-- Sidebar - Brand -->
+    <img src="https://i.pinimg.com/564x/17/c7/ad/17c7ad083a906c8dc70e66c8cbd7e33f.jpg" alt="">
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
       <div class="sidebar-brand-icon rotate-n-15">
-        <i class="fas fa-grin-tongue-wink"></i>
-      </div>
-      <div class="sidebar-brand-text mx-3">Topsis</div>
+        </div>
+      <div class="sidebar-brand-text mx-3"
+      
+      >Topsis</div>
     </a>
     
     <!-- Divider -->
@@ -40,12 +42,6 @@
       <a class="nav-link" href="{{ route('calculate.topsis')}}">
         <i class="fas fa-pills"></i>
         <span>Calculate</span></a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="{{ route('products') }}">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Products</span></a>
     </li>
     
     <li class="nav-item">
